@@ -21,7 +21,7 @@ FBullCowGame BCGame; // instantiate a new game
 // the entery point for our application
 int main()
 {
-	std::cout << BCGame.GetCurrentTry();
+	
 	bool bPlayAgain = false;
 	do {
 		PrintIntro();
@@ -91,7 +91,7 @@ FText GetValidGuess()
 			break;
 		}
 		std::cout << std::endl;
-	} while (Status == EGuessStatus::OK); // keep looping until we get no errors
+	} while (Status != EGuessStatus::OK); // keep looping until we get no errors
 	return Guess;
 }
 
