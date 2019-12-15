@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  FBullCowGame.cpp
+d:\bullcowgame\bullcowgame\fbullcowgame.cpp(10): warning C4267: 'return': conversion from 'size_t' to 'int32', possible loss of data
+d:\bullcowgame\bullcowgame\fbullcowgame.cpp(15): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\bullcowgame\bullcowgame\fbullcowgame.cpp(53): warning C4267: 'initializing': conversion from 'size_t' to 'int32', possible loss of data
   BullCowGame.vcxproj -> D:\bullcowgame\x64\Debug\BullCowGame.exe
